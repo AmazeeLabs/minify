@@ -270,7 +270,7 @@ function _minify_get_post_fields($js_code) {
   $post_data_array[] = 'js_code=' . $js_code;
   $post_data_array[] = 'compilation_level=WHITESPACE_ONLY';
   $post_data_array[] = 'output_format=json';
-  $post_data_array[] = 'warning_level=DEFAULT';
+  $post_data_array[] = 'warning_level=QUIET';
   $post_data_array[] = 'use_closure_library=' . true;
   $post_data_array[] = 'output_info=warnings';
   $post_data_array[] = 'output_info=errors';
